@@ -19,6 +19,52 @@ header{
     gap: 50px;
 }
 
+nav{
+    background-color: rgba(21, 204, 224, 0.64);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav a{
+    background-color: rgba(26, 40, 192, 0.204);
+    color: rgb(0, 21, 255);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgba(0, 238, 255, 0.601);
+    box-shadow: 1px 5px 9px 1px blue;
+
+}
+ 
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.dos {
+    width: 45%;
+}
+.dos img{
+    width: 50%;
+}
+
+.col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(238, 188, 7);
+    width: 33%;
+    padding: 2rem;
+}
+
+.col3 img{
+    width: 50%;
+}
 body{
     background-image: url(Imagenes/fondo.jpg) ;
     background-repeat: no-repeat;
@@ -64,4 +110,24 @@ img{
     width: 200px;
     border-radius: 20px;
 
+}
+
+#diferente{
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 144);
+}
+
+.imagen{
+    width: 40%;
+    margin: auto;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.imagen img:hover{
+    filter: sepia(100%);
 }
